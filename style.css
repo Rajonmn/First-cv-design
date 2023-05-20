@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D7D5D5;
+    font-family: 'Prompt', sans-serif;  
+}
+.container{
+    max-width: 1000px;
+    background-color: #60D0E4;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(191, 228, 132);
+    border-radius: 50%;
+    float: left;
+}
+.header-text{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(48, 97, 8);
+}
+.header-content{
+    float: right;
+    padding: 15px;   
+}
+.header-content a{
+    text-decoration: none;
+    color: rgb(88, 185, 9);
+    font-weight: bold;
+}
+.header-content a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 15px auto;
+    border-bottom: 2px;
+}
+#main-content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.right-div ul{
+    list-style-type: square;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 15px auto;
+}
+.right-div-education-left{
+    float: left;
+    width: 45%;
+}
+.right-div-education-right{
+    float: right;
+    width: 45%;
+}
+.footer-content{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer-content a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer-content p{
+    color: white;
+    margin-top: 20px;
+}
